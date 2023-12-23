@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
 # creates an RSA key pair
 
-# Set a secure passphrase
-passphrase="my_secure_passphrase"
-
-# Generate RSA key pair with passphrase
-ssh-keygen -t rsa -b 4096 -N "$passphrase" -f ~/.ssh/school
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/school
