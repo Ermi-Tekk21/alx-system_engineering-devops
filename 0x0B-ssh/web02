@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-# connect to your server using ssh
-
-ssh ubuntu@18.204.16.109 -i ~/.ssh/authorized_keys
